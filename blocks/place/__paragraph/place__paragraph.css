@@ -1,0 +1,11 @@
+.place__paragraph {
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
+  max-width: 484px;
+  padding-bottom: 26px;
+}
+
+.place__paragraph:last-of-type {
+  padding-bottom: 0;
+}

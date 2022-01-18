@@ -12,6 +12,4 @@
   transition: opacity .5s ease-in-out;
 }
 
-.cover__overlay:hover {
-  opacity: .8;
-}
+

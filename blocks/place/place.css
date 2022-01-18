@@ -19,6 +19,7 @@
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 340px minmax(min-content,max-content);
+    padding-bottom: 72px;
   }
 }
 
@@ -27,6 +28,9 @@
     display: flex;
     flex-direction: column;
     grid-template-columns: 0;
-    gap: 32;
+    gap: 0;
+    row-gap: 32px;
+    padding-bottom: 50px;
+
   }
 }

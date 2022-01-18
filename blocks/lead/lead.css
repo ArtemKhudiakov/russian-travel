@@ -8,3 +8,18 @@
   margin: 0 auto;
   padding-bottom: 92px;
 }
+
+
+@media screen and (max-width: 1023px) {
+  .lead {
+    max-width: 928px;
+    padding-bottom: 88px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead {
+    max-width: 768px;
+    padding-bottom: 64px;
+  }
+}

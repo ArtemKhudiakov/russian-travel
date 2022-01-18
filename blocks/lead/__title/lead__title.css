@@ -7,3 +7,11 @@
   padding-bottom: 32px;
   text-align: center;
 }
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    line-height: 44px;
+    font-size: 40px;
+    padding-bottom: 16px;
+  }
+}

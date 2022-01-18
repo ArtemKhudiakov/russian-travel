@@ -1,6 +1,10 @@
 .place__url-link {
-  font-weight: normal;
   font-size: 18px;
   line-height: 22px;
   color: white;
+}
+
+.place__url-link:hover {
+  opacity: 0.8;
+  transition: opacity .1s;
 }

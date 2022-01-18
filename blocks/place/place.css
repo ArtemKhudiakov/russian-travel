@@ -1,7 +1,32 @@
 .place {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 460px minmax(min-content,max-content);
   row-gap: 48px;
   column-gap: 40px;
   padding-bottom: 80px;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-template-columns: 440px minmax(min-content,max-content);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-template-columns: 340px minmax(min-content,max-content);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: 0;
+    gap: 32;
+  }
 }

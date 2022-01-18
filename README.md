@@ -9,23 +9,4 @@
 * Grid
 * Figma
 
-GitHub Pages
-
-
-@media screen and (max-width: 1279px) {
-  .header {
-
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .header {
-
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header {
-
-  }
-}
+Мой проект [Путешествие по России](https://artemkhudiakov.github.io/russian-travel/)

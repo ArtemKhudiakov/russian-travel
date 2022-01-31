@@ -9,4 +9,10 @@
 * Grid
 * Figma
 
+### Планируемые улучшения
+* добавить ENG версию
+* использовать препроцессор SCSS
+
+
+
 Мой проект [Путешествие по России](https://artemkhudiakov.github.io/russian-travel/)
